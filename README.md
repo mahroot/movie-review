@@ -65,7 +65,7 @@ movie-review-app-part1/
 ```
 
 ## Notes
-- CORS is configured in the backend to allow the frontend origin (`http://localhost:8080`).
+- CORS is configured in the backend to allow the frontend origin (`http://localhost:3000`).
 - The backend auto-seeds two sample movies on first run if the collection is empty.
 - Environment variables are wired through `.env` files and Docker Compose.
 - This is **Part 1 only** (local Docker). No Jenkins/K8s/Terraform yet; we’ll add them in later parts.
