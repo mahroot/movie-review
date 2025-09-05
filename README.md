@@ -6,7 +6,7 @@ Single-command local setup for a 3‑tier app using Docker:
 - Database: MongoDB (with Docker volume for data persistence)
 
 ## Ports
-- Frontend (Nginx): http://localhost:8080
+- Frontend (Nginx): http://localhost:3000
 - Backend (API):    http://localhost:5000
 - MongoDB:          localhost:27017
 
@@ -14,7 +14,7 @@ Single-command local setup for a 3‑tier app using Docker:
 ```bash
 docker compose up --build
 ```
-Then open: http://localhost:8080
+Then open: http://localhost:3000
 
 ## Stop
 ```bash
